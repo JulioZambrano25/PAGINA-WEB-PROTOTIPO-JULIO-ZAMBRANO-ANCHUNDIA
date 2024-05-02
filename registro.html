@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Registro de Usuario</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="registro.html">
+  <link rel="stylesheet" href="login.html">
+  <link rel="stylesheet" href="index.html">
+  <script src="index.js"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#">Cursos</a></li>
+            <li><a href="#">Sobre Nosotros</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="login.html">Ingreso</a></li>
+        </ul>
+    </nav>
+  <div class="container">
+    <form id="registroForm" action="#" method="post">
+      <h2>Registro de Usuario</h2>
+      <h5>Ingrese los datos para administrar la Página de CursosOnline</h5>
+      <div class="form-group">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="form-group">
+        <label for="confirmPassword">Confirmar Contraseña:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+      </div>
+      <button type="submit">Registrarse</button>
+    </form>
+  </div>
+</body>
+</html>

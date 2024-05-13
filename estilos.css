@@ -53,6 +53,7 @@ body {
   button:hover {
     background-color: red;
   }
+
   /*Estilos de pagina principal*/
 
   nav {
@@ -78,4 +79,52 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: #555;
+}
+
+/*Estilos de pagina cursos*/
+
+containerCurso {
+  width: 400px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.course {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.course img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.course h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.course p {
+  margin-bottom: 10px;
+}
+
+.course button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.course button:hover {
+  background-color: #45a049;
 }
